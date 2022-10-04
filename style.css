@@ -28,8 +28,8 @@ nav ul
 }
 nav li
 {
-padding: 5px;
-margin: 20px 5px;
+padding: 3px;
+margin: 20px 3px;
 font-size: 12px;
 font-weight:bolder;
 }
@@ -84,25 +84,27 @@ a
 }
 .container
 {
-    width: 80%;
+    width: 95%;
     display: flex;
     margin: auto;
     flex-direction: column;
+    justify-content: center;
 }
 
 .product
 {
-    width: 90%;
-    height: 300px;
+     /* width: 90%;  */
+    height: 370px;
     padding: 20px;
     border: black solid;
     margin: 10px 10px;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+
 }
 .image
 {
-    height:150px;
+    height:200px;
     width: 95%;
     margin: auto;
     margin-bottom: 30px;
@@ -164,15 +166,19 @@ font-weight:bolder;
     .container
     {
         flex-direction: row;
-        width: 95%;
+        /* width:95%; */
+        flex-wrap: wrap;
+         margin: auto; 
+        
+
     }
     .product
 {
-    
-    height: 320px;
-    padding-bottom: 0px;
+    width: 300px;
+    height: 380px;
+    padding-bottom: 5px;
     border: black solid;
-   
+  
 }
 p 
 {
@@ -240,6 +246,10 @@ ul.secondList
     {
         font-size: 20px;
     }
+    /* div.container 
+    {
+        marg
+    } */
     .product
 {
     
@@ -305,11 +315,25 @@ font-weight:bold;
     {
         font-size: 16px;
     }
+    
     .product
 { 
-    height: 340px;
+    height: 370px;
 }
 
+
+
+
+
+}
+
+@media print
+{
+     header
+    {
+        display:none;
+
+    }
 
 }
 
